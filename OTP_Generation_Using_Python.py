@@ -2,7 +2,7 @@ import os
 import smtplib
 import random as r
 import math as m
-otpsource = '0123456789abcdefghijklmnopqrstuvwxyz'
+otpsource = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
 OTP=''
 for i in range(6):
     OTP +=otpsource[m.floor(r.random()*otplen)]
